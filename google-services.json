@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "663085452477",
+    "firebase_url": "https://papagodriver-4a7d9.firebaseio.com",
+    "project_id": "papagodriver-4a7d9",
+    "storage_bucket": "papagodriver-4a7d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663085452477:android:66f681d48120feef",
+        "android_client_info": {
+          "package_name": "com.amberfog.mapslidingtest.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663085452477-gi4e1en7phc3fhaoggvude23erliddel.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbxUIZIB7Jwc2_I5ZNAFL-GpfiZWEkXlw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663085452477:android:108578683bfd16a6",
+        "android_client_info": {
+          "package_name": "ro.softronic.mihai.ro.papagodriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663085452477-gi4e1en7phc3fhaoggvude23erliddel.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbxUIZIB7Jwc2_I5ZNAFL-GpfiZWEkXlw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

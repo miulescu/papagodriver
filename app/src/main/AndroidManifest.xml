@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ro.softronic.mihai.ro.papagodriver">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name="ro.softronic.mihai.ro.papagodriver.Activities.TheApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="ro.softronic.mihai.ro.papagodriver.Activities.MainActivity"
+            android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- [START firebase_service] -->
+        <service
+            android:name="ro.softronic.mihai.ro.papagodriver.Services.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <!-- [END firebase_service] -->
+        <!-- [START firebase_iid_service] -->
+        <service
+            android:name="ro.softronic.mihai.ro.papagodriver.Services.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <!-- [END firebase_iid_service] -->
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyB7QudPDd5g6TgY8gyzSLOjItbsIvsDOs4"/>
+        <activity
+            android:name=".Activities.DetailActivity"
+            android:screenOrientation="sensorPortrait"
+            android:configChanges="orientation|keyboardHidden"
+
+            android:parentActivityName=".Activities.MainActivity" >
+
+        </activity>
+    </application>
+
+</manifest>

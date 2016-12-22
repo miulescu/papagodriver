@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/btn_sterg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sterg tot"/>
+
+    <ListView
+        android:id="@android:id/list"
+        android:cacheColorHint="@android:color/white"
+        android:drawSelectorOnTop="true"
+        android:divider="@android:color/darker_gray"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:smoothScrollbar="false"
+        />
+
+
+</LinearLayout>
